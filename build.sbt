@@ -9,4 +9,5 @@ resolvers += "Orient Technologies Maven2 Repository" at "http://www.orientechnol
 libraryDependencies ++= Seq(
   "org.scalatest" % "scalatest_2.9.0" % "1.6.1" % "test",
   "com.orientechnologies" % "orient-commons" % "1.0rc7",
+  "com.orientechnologies" % "orientdb-client" % "1.0rc7",
   "com.orientechnologies" % "orientdb-core" % "1.0rc7")
